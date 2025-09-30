@@ -1,7 +1,7 @@
 import React from 'react';
 import { posts } from './data';
 import PostList from './components/PostList/PostList';
-import './App.scss';
+//import './App.scss';
 
 function App() {
   return (

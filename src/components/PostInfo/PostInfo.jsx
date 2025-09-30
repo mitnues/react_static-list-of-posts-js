@@ -7,8 +7,12 @@ function PostInfo({ post }) {
     <div className="post">
       <h2 className="post__title">{post.title}</h2>
       <p className="post__body">{post.body}</p>
-      <div className="post__user">By: {post.user.name}</div>
-      <CommentList comments={post.comments} />
+
+      <div className="post__user">By: {
+      post.user?.name || 'Unknown author'
+      }
+      </div>
+      <CommentList comments={post.comments || []} />
     </div>
   );
 }
