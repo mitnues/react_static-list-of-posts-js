@@ -1,4 +1,5 @@
 import React from 'react';
+import './UserInfo.scss';
 
 /**
  * Renders user information from a single 'user' object prop.

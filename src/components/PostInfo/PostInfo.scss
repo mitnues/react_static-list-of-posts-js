@@ -1,5 +1,5 @@
 // add styles here
-.PostInfo {
+.post {
   border: 1px solid #ccc;
   padding: 16px;
   border-radius: 8px;
@@ -7,13 +7,6 @@
   &__title {
     font-size: 1.5em;
     margin-bottom: 8px;
-  }
-
-  &__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 12px;
   }
 
   &__body {
